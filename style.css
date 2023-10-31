@@ -1,0 +1,562 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.banner{
+    background: #f7eeee;
+    opacity: 80;
+    height: 100vh;
+    width: 100%;
+}
+.navbar ul{
+    margin-left: 400px;
+    display: flex;
+    column-gap: 200px;
+    text-align: center;
+    list-style: none;
+}
+.navbar ul li{
+    margin-top: 80px;
+}
+.banner .navbar ul li a{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+.navbar ul li a:hover{
+    background: white;
+    opacity: 100%;
+    border-radius: 60px;
+    padding: 4px;
+    height: 5px;
+    cursor: pointer;
+
+}
+
+.txt h6{
+    font-size: 35px;
+    color: black;
+    margin-left: 200px;
+    margin-top: 50px;
+    font-weight: lighter;
+}
+.txt h3{
+    font-size: 30px;
+    color: #E313F5;
+    margin-left: 200px;
+    margin-top: 10px;
+    font-weight: bolder;
+    position: relative;
+}
+.txt p{
+    color: black;
+    margin-left: 200px;
+    margin-top: -5px;
+    font-size: 20px;
+}
+.bttn{
+    color: white;
+    background: black;
+    border: none;
+    border-radius: 60px;
+    padding: 10px;
+    margin-left: 200px;
+    margin-top: 15px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+button:hover{
+    background: #9c2d8f;
+}
+
+.puppies{
+    object-fit: fill;
+    margin-left: 1280px;
+    margin-top: -750px;
+}
+.puppies .shape{
+    min-height: 280px;
+    background: #f077fb;
+    width: 200px;
+    border-radius: 50px;
+    margin-top: 390px;
+    margin-left: -280px;
+    rotate: 110deg;
+    position: absolute;
+}
+.puppies img{
+    border-radius: 40px;
+    position: relative;
+    margin-left: -300px;
+    margin-top: 180px;
+
+}
+
+/* Section Start */
+.more-puppies{
+    height: 160vh;
+    width: 100%;
+    background: #f7eeee;
+}
+ .shape1{
+    min-height: 300px;
+    background: #f077fb;
+    width: 200px;
+    border-radius: 50px;
+    margin-top: -8px;
+    margin-left: 220px;
+    rotate: 110deg;
+    position: absolute;
+
+}
+.dog1{
+    border-radius: 40px;
+    position: relative;
+    object-fit: fill;
+    width: 280px;
+    margin-left: 200px;
+    margin-top: -100px;
+}
+
+.dog2{
+    border-radius: 40px;
+    width: 350px;
+    position: relative;
+    top: -265px;
+    left: 200px;
+}
+
+.rounded{
+    min-height: 250px;
+    background: #f077fb;
+    width: 400px;
+    border-radius: 40px;
+    margin-top: 120px;
+    margin-left: 200px;
+    width: 200px;
+    rotate: 110deg; 
+}
+
+
+.shape3{
+    min-height: 250px;
+    background: #f077fb;
+    width: 200px;
+    border-radius: 40px;
+    margin-top: -490px;
+    margin-left: 935px;
+    rotate: 109deg;
+    position: absolute;
+}
+.dog3{
+    border-radius: 30px;
+    object-fit: fill;
+    width: 350px;
+    margin-left: 915px;
+    margin-top: 10px;
+    position: relative;
+    top: -510px;
+    left: 8px;
+}
+.shape4{
+    min-height: 240px;
+    background: #f077fb;
+    width: 230px;
+    border-radius: 40px;
+    margin-top: -320px;
+    margin-left: 560px;
+    rotate: 110deg;
+    position: absolute;
+    rotate: 110deg;
+}
+.dog4{
+    border-radius: 30px;
+    object-fit: fill;
+    width: 380px;
+    margin-left: 560px;
+    margin-top: -400px;
+    position: relative;
+    top: -110px;
+    left: 10px;
+}
+/* Footer Start */
+footer{
+    background: black;
+    width: 100%;
+    position: absolute;
+    height: 70vh;
+    color: #fff;
+}
+.row{
+    width: 85%;
+    margin-top: 65px;
+    margin-left: 160px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.col{
+    flex-basis: 30%;
+    padding: 10px;
+    font-size: 25px;
+}
+.col h3{
+    width: fit-content;
+    margin-bottom: 40px;
+    position: relative;
+    font-size: 35px;
+}
+footer ul li{
+    list-style: none;
+    text-decoration: none;
+}
+footer ul li::after{
+    list-style: none;
+    margin-bottom: 12px;
+    content: '';
+    width: 0%;
+    height: 5px;
+    background: #fff;
+    display: flex;
+    transition: 0.5s ease-in-out;
+    text-decoration: none;
+}
+footer ul li:hover::after{
+    width: 15%;
+}
+footer ul li a{
+    text-decoration: none;
+    color: #fff;
+    list-style: none;
+}
+
+form button{
+    font-size: 15px;
+    padding: 4px;
+    border-radius: 30px;
+    margin-left: 30px;
+    margin-top: -15px;
+    cursor: pointer;
+    border: none;
+    transition: 0.2s;
+}
+form input{
+    background: transparent;
+    color: #fff;
+    border: 0;
+    outline: none;
+}
+form button:hover{
+    background: #9c2d8f;
+}
+hr{
+    width: 90%;
+    border: 0;
+    border-bottom: 1px solid #ccc;
+    margin: 20px auto;
+}
+.copyright{
+    margin-top: 20px;
+    margin-left: 150px;
+
+}
+
+/* Footer End */
+
+/* Pet Health */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.header{
+    background: #f7eeee;
+    opacity: 80;
+    height: 100vh;
+    width: 100%;
+}
+.navbar ul{
+    margin-left: 470px;
+    display: flex;
+    column-gap: 100px;
+    text-align: center;
+    list-style: none;
+}
+.navbar ul li{
+    margin-top: 80px;
+}
+.header .navbar ul li a{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+.navbar ul li a:hover{
+    background: white;
+    opacity: 100%;
+    border-radius: 60px;
+    padding: 4px;
+    height: 5px;
+    cursor: pointer;
+
+}
+.text h3{
+    font-size: 35px;
+    color: #E313F5;
+    margin-left: 900px;
+    margin-top: 50px;
+    font-weight: bolder;
+}
+.text p{
+    color: black;
+    margin-left: 900px;
+    margin-top: 5px;
+    font-size: 20px;
+}
+.puppy{
+    margin-left: 240px;
+    margin-top: -200px;
+}
+.puppy img{
+    border-radius: 30px;
+    position: relative;
+    width: 300px;
+}
+.puppy .shape{
+    min-height: 280px;
+    background: #f077fb;
+    width: 205px;
+    border-radius: 50px;
+    margin-top: -10px;
+    margin-left: 10px;
+    rotate: 110deg;
+    position: absolute;  
+}
+.shapee{
+    background: #f7eeee;
+}
+/* Section */
+section{
+    height: 150vh;
+    width: 100%;
+    background: #f7eeee;
+}
+.shape5{
+    min-height: 250px;
+    background: #f077fb;
+    width: 300px;
+    border-radius: 50px;
+    margin-top: 410px;
+    margin-left: 170px;
+    rotate: 110deg;
+    position: absolute;
+
+}
+.dog5{
+    border-radius: 40px;
+    position: relative;
+    width: 200px;
+    margin-left: 200px;
+    margin-top: 362px;
+}
+.shape6 h3{
+    margin-top: 250px;
+    margin-left: 125px;
+    font-weight: lighter;
+}
+.shape6{
+    border-radius: 40px;
+    background: #e685ee;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 1266px;
+    left: 160px;
+}
+.dog6{
+    margin-top: 190px;
+    margin-left: 210px;
+    position: relative;
+}
+.shape7 h3{
+    margin-top: 250px;
+    margin-left: 125px;
+    font-weight: lighter;
+}
+.shape7{
+    border-radius: 40px;
+    background: #e685ee;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 1266px;
+    left: 950px;
+}
+.dog7{
+    margin-top: 190px;
+    margin-left: 589px;
+    position: relative;
+}
+.shape8 h3{
+    margin-top: 250px;
+    margin-left: 125px;
+    font-weight: lighter;
+}
+.shape8{
+    border-radius: 40px;
+    background: #e685ee;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 1766px;
+    left: 160px;
+}
+.dog8{
+    margin-top: 293px;
+    margin-left: 210px;
+    position: relative;
+}
+.shape9 h3{
+    margin-top: 250px;
+    margin-left: 125px;
+    font-weight: lighter;
+}
+.shape9{
+    border-radius: 40px;
+    background: #e685ee;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 1766px;
+    left: 950px;
+}
+.dog9{
+    margin-top: 293px;
+    margin-left: 589px;
+    position: relative;
+}
+/* Footer Start */
+footer{
+    background: black;
+    width: 100%;
+    position: absolute;
+    height: 70vh;
+    color: #fff;
+}
+.row{
+    width: 85%;
+    margin-top: 65px;
+    margin-left: 160px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.col{
+    flex-basis: 30%;
+    padding: 10px;
+    font-size: 25px;
+}
+.col h3{
+    width: fit-content;
+    margin-bottom: 40px;
+    position: relative;
+    font-size: 35px;
+}
+footer ul li{
+    list-style: none;
+    text-decoration: none;
+}
+footer ul li::after{
+    list-style: none;
+    margin-bottom: 12px;
+    content: '';
+    width: 0%;
+    height: 5px;
+    background: #fff;
+    display: flex;
+    transition: 0.5s ease-in-out;
+    text-decoration: none;
+}
+footer ul li:hover::after{
+    width: 15%;
+}
+footer ul li a{
+    text-decoration: none;
+    color: #fff;
+    list-style: none;
+}
+
+form button{
+    font-size: 15px;
+    padding: 4px;
+    border-radius: 30px;
+    margin-left: 30px;
+    margin-top: -15px;
+    cursor: pointer;
+    border: none;
+    transition: 0.2s;
+}
+form input{
+    background: transparent;
+    color: #fff;
+    border: 0;
+    outline: none;
+}
+form button:hover{
+    background: #9c2d8f;
+}
+hr{
+    width: 90%;
+    border: 0;
+    border-bottom: 1px solid #ccc;
+    margin: 20px auto;
+}
+.copyright{
+    margin-top: 20px;
+    margin-left: 150px;
+
+}
+
+/* Footer End */
+/* Pet Health */
+
+/* Training */
+.headerr{
+    background: #f7eeee;
+    opacity: 80;
+    height: 100vh;
+    width: 100%;
+}
+.navigation ul{
+    margin-left: 400px;
+    display: flex;
+    column-gap: 200px;
+    text-align: center;
+    list-style: none;
+}
+.navigation ul li{
+    margin-top: 80px;
+}
+.headerr .navigation ul li a{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+.navigation ul li a:hover{
+    background: white;
+    opacity: 100%;
+    border-radius: 60px;
+    padding: 4px;
+    height: 5px;
+    cursor: pointer;
+
+}
+
+
+
+
+
+
+
